@@ -21,13 +21,13 @@ provider "azurerm" {
 }
 
 resource "random_string" "uniquestring" {
-  length           = 20
-  special          = false
-  upper            = false
+  length  = 20
+  special = false
+  upper   = false
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "811-cbfc47a6-provide-continuous-delivery-with-gith"
+  name     = "811-cbfc47a6-provide-continuous-delivery-with-gith1"
   location = "eastus"
 }
 
