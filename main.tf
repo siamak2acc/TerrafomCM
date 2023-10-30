@@ -10,7 +10,7 @@ terraform {
     organization = "bizitOG"
 
     workspaces {
-      name = "TerraformCM1"
+      name = "TerraformCM"
     }
   }
 }
