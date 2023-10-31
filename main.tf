@@ -6,12 +6,12 @@ terraform {
       version  = "3.43.0"
     }
   }
-  cloud {
-    organization = "bizitOG"
+  #cloud {
+  #  organization = "bizitOG"
 
-    workspaces {
-      name = "TerraformCM"
-    }
+  #  workspaces {
+  #    name = "TerraformCM"
+  #  }
   }
 }
 
