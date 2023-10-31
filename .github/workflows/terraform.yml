@@ -42,11 +42,11 @@
 #       with:
 #         cli_config_credentials_token: ${{ secrets.TF_API_TOKEN }}
 
-name: 'Terraform'
+name: 'Terraform-danijel'
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "danijel" ]
   workflow_dispatch:
   #pull_request:
 
